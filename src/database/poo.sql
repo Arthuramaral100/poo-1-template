@@ -1,4 +1,4 @@
--- Active: 1674822293801@@127.0.0.1@3306
+-- Active: 1674477836644@@127.0.0.1@3306
 
 CREATE TABLE users (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -25,3 +25,6 @@ INSERT INTO accounts (id, owner_id)
 VALUES
 	("a001", "u001"),
 	("a002", "u002");
+
+SELECT * FROM users;
+SELECT * FROM accounts;
